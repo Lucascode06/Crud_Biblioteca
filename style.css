@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/img/biblio.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #2d3e50;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #0077cc;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h1, h2, h3 {
+    color: #f1f1f1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+table th {
+    background: #f0f0f0;
+}
+form {
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="submit"], button {
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+input[type="submit"]:hover, button:hover {
+    background: #0077cc;
+}
+.alert {
+    padding: 10px;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.success {
+    background: #2ecc71;
+}
