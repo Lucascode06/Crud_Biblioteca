@@ -24,6 +24,7 @@
         <ul>
             <li>Cadastre novos autores, livros, leitores e empréstimos.</li>
             <li>Liste e filtre livros por gênero, autor ou ano.</li>
+            
             <li>Veja empréstimos ativos e concluídos separadamente.</li>
             <li>Consulte todos os livros emprestados a um leitor específico.</li>
         </ul>

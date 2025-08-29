@@ -25,6 +25,20 @@ nav a {
     font-weight: bold;
     transition: color 0.2s;
 }
+
+.div-container-h2 {
+    background: #2d3e50;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.div-container, h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
 nav a:hover {
     color: #0077cc;
 }
@@ -36,7 +50,7 @@ nav a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-h1, h2, h3 {
+h1, h3 {
     color: #f1f1f1;
 }
 table {
@@ -55,26 +69,7 @@ table th {
 form {
     margin-bottom: 20px;
 }
-input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-input[type="submit"], button {
-    background: #2d3e50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.2s;
-}
-input[type="submit"]:hover, button:hover {
-    background: #0077cc;
-}
+
 .alert {
     padding: 10px;
     background: #e74c3c;
